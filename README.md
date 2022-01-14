@@ -1,18 +1,5 @@
-# Create the database model for Instagram
 
-**Important**: To do this activity you need to `fork` this repo into your **Github** account and then open the forked repo on Gitpod.
-
-Inside he `src/models.py` file you will find a couple of classes describing an example database.
-
-Here is a 4min video explaining what UML is: [https://www.youtube.com/watch?v=UI6lqHOVHic](https://www.youtube.com/watch?v=UI6lqHOVHic)
-
-We are going to be creating the Entity Relationship Diagram for Instagram Database, a very similar diagram to this one:
-
-![Instagram Diagram](https://github.com/breatheco-de/exercise-instagram-data-modeling/blob/master/assets/example.png?raw=true)
-[Click to open diagram](https://app.quickdatabasediagrams.com/#/d/LxNXQZ)
-
-> 🔥 You can use this FREE tool to practice your diagram for the first time: https://app.quickdatabasediagrams.com/#/d/
-
+# Instagram model database with Python's SQLAlchemy 
 
 ## 💻 Installation
 
@@ -25,7 +12,7 @@ We are going to be creating the Entity Relationship Diagram for Instagram Databa
 4. Open the file `diagram.png` to check out your UML diagram!
 
 
-## 📝Instructions
+## 📝Instructions received
 
 Your Job is to update the `src/models.py` file with the code needed to replicate the instagram data model.
 
@@ -36,4 +23,16 @@ The project is using the SQLAlchemy Python library to generate the database.
 - Please add at least 4 models with all of its properties.
 - Degenerate the diagram.png file at the end by running `$ python3 models.py` on the console.
 
+# My Code
 
+For this exercise I setted up a lot of tables due of the complexity of the main Instagram App.
+
+There's a show down of the code in `SQL tables`
+
+<img src="diagram.png" alt="My Instagram model database diagram">
+
+>_That's all folks,_
+>
+>_thank you for reading!_
+>
+>_**AslanSN**_
